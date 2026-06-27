@@ -25,3 +25,14 @@ venv/
 
 # Logs
 *.log
+
+# OpenCode config (local - may contain API keys)
+opencode.json
+opencode.jsonc
+.opencode/
+
+# Environment files with secrets
+.env
+.env.*
+*.key
+*.pem
